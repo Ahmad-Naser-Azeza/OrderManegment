@@ -1,0 +1,785 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\AhmadNaser\\source\\repos\\CorOps_BE\\CoreOps.FleetManagment.Infrastructure\\CoreOps.FleetManagement.Infrastructure.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\AhmadNaser\\source\\repos\\CorOps_BE\\Caching\\Caching.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\AhmadNaser\\source\\repos\\CorOps_BE\\Caching\\Caching.csproj",
+        "projectName": "Caching",
+        "projectPath": "C:\\Users\\AhmadNaser\\source\\repos\\CorOps_BE\\Caching\\Caching.csproj",
+        "packagesPath": "C:\\Users\\AhmadNaser\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\AhmadNaser\\source\\repos\\CorOps_BE\\Caching\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\AhmadNaser\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\AhmadNaser\\source\\repos\\CorOps_BE\\SharedKernel\\Kernel.csproj": {
+                "projectPath": "C:\\Users\\AhmadNaser\\source\\repos\\CorOps_BE\\SharedKernel\\Kernel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.Caching.StackExchangeRedis": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Options.DataAnnotations": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "StackExchange.Redis": {
+              "target": "Package",
+              "version": "[2.8.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\AhmadNaser\\source\\repos\\CorOps_BE\\CoreOps.FleetManagement.Domain\\CoreOps.FleetManagement.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\AhmadNaser\\source\\repos\\CorOps_BE\\CoreOps.FleetManagement.Domain\\CoreOps.FleetManagement.Domain.csproj",
+        "projectName": "CoreOps.FleetManagement.Domain",
+        "projectPath": "C:\\Users\\AhmadNaser\\source\\repos\\CorOps_BE\\CoreOps.FleetManagement.Domain\\CoreOps.FleetManagement.Domain.csproj",
+        "packagesPath": "C:\\Users\\AhmadNaser\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\AhmadNaser\\source\\repos\\CorOps_BE\\CoreOps.FleetManagement.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\AhmadNaser\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\AhmadNaser\\source\\repos\\CorOps_BE\\Persistence\\Persistence.csproj": {
+                "projectPath": "C:\\Users\\AhmadNaser\\source\\repos\\CorOps_BE\\Persistence\\Persistence.csproj"
+              },
+              "C:\\Users\\AhmadNaser\\source\\repos\\CorOps_BE\\SharedKernel\\Kernel.csproj": {
+                "projectPath": "C:\\Users\\AhmadNaser\\source\\repos\\CorOps_BE\\SharedKernel\\Kernel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.4.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\AhmadNaser\\source\\repos\\CorOps_BE\\CoreOps.FleetManagment.Domain\\CoreOps.FleetManagement.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\AhmadNaser\\source\\repos\\CorOps_BE\\CoreOps.FleetManagment.Domain\\CoreOps.FleetManagement.Domain.csproj",
+        "projectName": "CoreOps.FleetManagement.Domain",
+        "projectPath": "C:\\Users\\AhmadNaser\\source\\repos\\CorOps_BE\\CoreOps.FleetManagment.Domain\\CoreOps.FleetManagement.Domain.csproj",
+        "packagesPath": "C:\\Users\\AhmadNaser\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\AhmadNaser\\source\\repos\\CorOps_BE\\CoreOps.FleetManagment.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\AhmadNaser\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\AhmadNaser\\source\\repos\\CorOps_BE\\Persistence\\Persistence.csproj": {
+                "projectPath": "C:\\Users\\AhmadNaser\\source\\repos\\CorOps_BE\\Persistence\\Persistence.csproj"
+              },
+              "C:\\Users\\AhmadNaser\\source\\repos\\CorOps_BE\\SharedKernel\\Kernel.csproj": {
+                "projectPath": "C:\\Users\\AhmadNaser\\source\\repos\\CorOps_BE\\SharedKernel\\Kernel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.4.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\AhmadNaser\\source\\repos\\CorOps_BE\\CoreOps.FleetManagment.Infrastructure\\CoreOps.FleetManagement.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\AhmadNaser\\source\\repos\\CorOps_BE\\CoreOps.FleetManagment.Infrastructure\\CoreOps.FleetManagement.Infrastructure.csproj",
+        "projectName": "CoreOps.FleetManagement.Infrastructure",
+        "projectPath": "C:\\Users\\AhmadNaser\\source\\repos\\CorOps_BE\\CoreOps.FleetManagment.Infrastructure\\CoreOps.FleetManagement.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\AhmadNaser\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\AhmadNaser\\source\\repos\\CorOps_BE\\CoreOps.FleetManagment.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\AhmadNaser\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\AhmadNaser\\source\\repos\\CorOps_BE\\Caching\\Caching.csproj": {
+                "projectPath": "C:\\Users\\AhmadNaser\\source\\repos\\CorOps_BE\\Caching\\Caching.csproj"
+              },
+              "C:\\Users\\AhmadNaser\\source\\repos\\CorOps_BE\\CoreOps.FleetManagement.Domain\\CoreOps.FleetManagement.Domain.csproj": {
+                "projectPath": "C:\\Users\\AhmadNaser\\source\\repos\\CorOps_BE\\CoreOps.FleetManagement.Domain\\CoreOps.FleetManagement.Domain.csproj"
+              },
+              "C:\\Users\\AhmadNaser\\source\\repos\\CorOps_BE\\CoreOps.FleetManagment.Domain\\CoreOps.FleetManagement.Domain.csproj": {
+                "projectPath": "C:\\Users\\AhmadNaser\\source\\repos\\CorOps_BE\\CoreOps.FleetManagment.Domain\\CoreOps.FleetManagement.Domain.csproj"
+              },
+              "C:\\Users\\AhmadNaser\\source\\repos\\CorOps_BE\\MediatorCoordinator\\MediatorCoordinator.csproj": {
+                "projectPath": "C:\\Users\\AhmadNaser\\source\\repos\\CorOps_BE\\MediatorCoordinator\\MediatorCoordinator.csproj"
+              },
+              "C:\\Users\\AhmadNaser\\source\\repos\\CorOps_BE\\SharedKernel\\Kernel.csproj": {
+                "projectPath": "C:\\Users\\AhmadNaser\\source\\repos\\CorOps_BE\\SharedKernel\\Kernel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.DependencyValidation.Analyzers": {
+              "target": "Package",
+              "version": "[0.11.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.Extensions.Options.DataAnnotations": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\AhmadNaser\\source\\repos\\CorOps_BE\\CoreOps.Identity.Domain\\CoreOps.Identity.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\AhmadNaser\\source\\repos\\CorOps_BE\\CoreOps.Identity.Domain\\CoreOps.Identity.Domain.csproj",
+        "projectName": "CoreOps.Identity.Domain",
+        "projectPath": "C:\\Users\\AhmadNaser\\source\\repos\\CorOps_BE\\CoreOps.Identity.Domain\\CoreOps.Identity.Domain.csproj",
+        "packagesPath": "C:\\Users\\AhmadNaser\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\AhmadNaser\\source\\repos\\CorOps_BE\\CoreOps.Identity.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\AhmadNaser\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\AhmadNaser\\source\\repos\\CorOps_BE\\SharedKernel\\Kernel.csproj": {
+                "projectPath": "C:\\Users\\AhmadNaser\\source\\repos\\CorOps_BE\\SharedKernel\\Kernel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.4.1, )"
+            },
+            "Microsoft.Extensions.Identity.Core": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\AhmadNaser\\source\\repos\\CorOps_BE\\CoreOps.Identity.Infrastructure\\CoreOps.Identity.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\AhmadNaser\\source\\repos\\CorOps_BE\\CoreOps.Identity.Infrastructure\\CoreOps.Identity.Infrastructure.csproj",
+        "projectName": "CoreOps.Identity.Infrastructure",
+        "projectPath": "C:\\Users\\AhmadNaser\\source\\repos\\CorOps_BE\\CoreOps.Identity.Infrastructure\\CoreOps.Identity.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\AhmadNaser\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\AhmadNaser\\source\\repos\\CorOps_BE\\CoreOps.Identity.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\AhmadNaser\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\AhmadNaser\\source\\repos\\CorOps_BE\\Caching\\Caching.csproj": {
+                "projectPath": "C:\\Users\\AhmadNaser\\source\\repos\\CorOps_BE\\Caching\\Caching.csproj"
+              },
+              "C:\\Users\\AhmadNaser\\source\\repos\\CorOps_BE\\CoreOps.Identity.Domain\\CoreOps.Identity.Domain.csproj": {
+                "projectPath": "C:\\Users\\AhmadNaser\\source\\repos\\CorOps_BE\\CoreOps.Identity.Domain\\CoreOps.Identity.Domain.csproj"
+              },
+              "C:\\Users\\AhmadNaser\\source\\repos\\CorOps_BE\\MediatorCoordinator\\MediatorCoordinator.csproj": {
+                "projectPath": "C:\\Users\\AhmadNaser\\source\\repos\\CorOps_BE\\MediatorCoordinator\\MediatorCoordinator.csproj"
+              },
+              "C:\\Users\\AhmadNaser\\source\\repos\\CorOps_BE\\SharedKernel\\Kernel.csproj": {
+                "projectPath": "C:\\Users\\AhmadNaser\\source\\repos\\CorOps_BE\\SharedKernel\\Kernel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.DependencyValidation.Analyzers": {
+              "target": "Package",
+              "version": "[0.11.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.Extensions.Options.DataAnnotations": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\AhmadNaser\\source\\repos\\CorOps_BE\\MediatorCoordinator\\MediatorCoordinator.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\AhmadNaser\\source\\repos\\CorOps_BE\\MediatorCoordinator\\MediatorCoordinator.csproj",
+        "projectName": "MediatorCoordinator",
+        "projectPath": "C:\\Users\\AhmadNaser\\source\\repos\\CorOps_BE\\MediatorCoordinator\\MediatorCoordinator.csproj",
+        "packagesPath": "C:\\Users\\AhmadNaser\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\AhmadNaser\\source\\repos\\CorOps_BE\\MediatorCoordinator\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\AhmadNaser\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\AhmadNaser\\source\\repos\\CorOps_BE\\SharedKernel\\Kernel.csproj": {
+                "projectPath": "C:\\Users\\AhmadNaser\\source\\repos\\CorOps_BE\\SharedKernel\\Kernel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\AhmadNaser\\source\\repos\\CorOps_BE\\Persistence\\Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\AhmadNaser\\source\\repos\\CorOps_BE\\Persistence\\Persistence.csproj",
+        "projectName": "Persistence",
+        "projectPath": "C:\\Users\\AhmadNaser\\source\\repos\\CorOps_BE\\Persistence\\Persistence.csproj",
+        "packagesPath": "C:\\Users\\AhmadNaser\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\AhmadNaser\\source\\repos\\CorOps_BE\\Persistence\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\AhmadNaser\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\AhmadNaser\\source\\repos\\CorOps_BE\\CoreOps.Identity.Infrastructure\\CoreOps.Identity.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\AhmadNaser\\source\\repos\\CorOps_BE\\CoreOps.Identity.Infrastructure\\CoreOps.Identity.Infrastructure.csproj"
+              },
+              "C:\\Users\\AhmadNaser\\source\\repos\\CorOps_BE\\SharedKernel\\Kernel.csproj": {
+                "projectPath": "C:\\Users\\AhmadNaser\\source\\repos\\CorOps_BE\\SharedKernel\\Kernel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\AhmadNaser\\source\\repos\\CorOps_BE\\SharedKernel\\Kernel.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\AhmadNaser\\source\\repos\\CorOps_BE\\SharedKernel\\Kernel.csproj",
+        "projectName": "Kernel",
+        "projectPath": "C:\\Users\\AhmadNaser\\source\\repos\\CorOps_BE\\SharedKernel\\Kernel.csproj",
+        "packagesPath": "C:\\Users\\AhmadNaser\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\AhmadNaser\\source\\repos\\CorOps_BE\\SharedKernel\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\AhmadNaser\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.9.2, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Formatters.Json": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "StackExchange.Redis": {
+              "target": "Package",
+              "version": "[2.8.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "System.Security.Cryptography.ProtectedData": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "XAct.Core.PCL": {
+              "target": "Package",
+              "version": "[0.0.5014, )"
+            },
+            "Z.ExtensionMethods": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

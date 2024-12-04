@@ -1,0 +1,37 @@
+{
+  "JwtSettings": {
+    "SecretKey": "hcGrq+iClHF7bEYWLtmR+x/rL0iyCF/funAeeBUc=",
+    "TokenExpiryInSeconds": 86400
+  },
+  "AzureSamlIdentitySettings": {
+    "TokenExpiryInSeconds": 0,
+    "IssuerBaseUrl": "",
+    "LoginBaseUrl": "",
+    "SessionVolatilityInSeconds": 0,
+    "AllowedHosts": ""
+  },
+  "IntranetIdentitySettings": {
+    "TokenExpiryInSeconds": 0,
+    "BaseUrl": "",
+    "AllowedHosts": ""
+  },
+  "UserLoginSetting": {
+    "TokenRefreshExpiryInMinutes": 5,
+    "TokenExpiryInSeconds": 6000,
+    "DelayBeforeLoggingOutInMinutes": 4
+  },
+  "TenantIdentitySettings": {
+    "Tenants": [
+      {
+        "TokenExpiryInSeconds": 0,
+        "Name": "",
+        "BaseUrl": "",
+        "AllowedHosts": "",
+        "Id": "",
+        "ClientSecret": "",
+        "ClientId": "",
+        "Scope": ""
+      }
+    ]
+  }
+}

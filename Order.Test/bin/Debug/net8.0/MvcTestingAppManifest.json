@@ -1,0 +1,9 @@
+{
+  "Kernal, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\AhmadNaser\\source\\repos\\OrderManagement\\Kernal",
+  "MediatorCoordinator, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\AhmadNaser\\source\\repos\\OrderManagement\\MediatorCoordinator",
+  "Order.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\AhmadNaser\\source\\repos\\OrderManagement\\Order.API",
+  "Order.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\AhmadNaser\\source\\repos\\OrderManagement\\Order.Application",
+  "Order.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\AhmadNaser\\source\\repos\\OrderManagement\\Order.Domain",
+  "Order.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\AhmadNaser\\source\\repos\\OrderManagement\\Order.Infrastructure",
+  "Persistence, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\AhmadNaser\\source\\repos\\OrderManagement\\Persistence"
+}

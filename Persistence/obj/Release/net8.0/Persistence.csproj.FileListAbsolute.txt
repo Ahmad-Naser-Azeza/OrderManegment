@@ -1,0 +1,17 @@
+C:\Users\AhmadNaser\source\repos\CorOps_BE\Persistence\bin\Release\net8.0\IdentitySettings\identitySettings.json
+C:\Users\AhmadNaser\source\repos\CorOps_BE\Persistence\bin\Release\net8.0\Persistence.deps.json
+C:\Users\AhmadNaser\source\repos\CorOps_BE\Persistence\bin\Release\net8.0\Persistence.dll
+C:\Users\AhmadNaser\source\repos\CorOps_BE\Persistence\bin\Release\net8.0\Persistence.pdb
+C:\Users\AhmadNaser\source\repos\CorOps_BE\Persistence\bin\Release\net8.0\Kernel.dll
+C:\Users\AhmadNaser\source\repos\CorOps_BE\Persistence\bin\Release\net8.0\Kernel.pdb
+C:\Users\AhmadNaser\source\repos\CorOps_BE\Persistence\obj\Release\net8.0\Persistence.csproj.AssemblyReference.cache
+C:\Users\AhmadNaser\source\repos\CorOps_BE\Persistence\obj\Release\net8.0\Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AhmadNaser\source\repos\CorOps_BE\Persistence\obj\Release\net8.0\Persistence.AssemblyInfoInputs.cache
+C:\Users\AhmadNaser\source\repos\CorOps_BE\Persistence\obj\Release\net8.0\Persistence.AssemblyInfo.cs
+C:\Users\AhmadNaser\source\repos\CorOps_BE\Persistence\obj\Release\net8.0\Persistence.csproj.CoreCompileInputs.cache
+C:\Users\AhmadNaser\source\repos\CorOps_BE\Persistence\obj\Release\net8.0\Persistence.sourcelink.json
+C:\Users\AhmadNaser\source\repos\CorOps_BE\Persistence\obj\Release\net8.0\Persiste.61C28332.Up2Date
+C:\Users\AhmadNaser\source\repos\CorOps_BE\Persistence\obj\Release\net8.0\Persistence.dll
+C:\Users\AhmadNaser\source\repos\CorOps_BE\Persistence\obj\Release\net8.0\refint\Persistence.dll
+C:\Users\AhmadNaser\source\repos\CorOps_BE\Persistence\obj\Release\net8.0\Persistence.pdb
+C:\Users\AhmadNaser\source\repos\CorOps_BE\Persistence\obj\Release\net8.0\ref\Persistence.dll

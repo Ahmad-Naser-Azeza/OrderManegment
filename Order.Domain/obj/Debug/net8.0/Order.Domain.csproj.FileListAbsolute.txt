@@ -1,0 +1,15 @@
+C:\Users\AhmadNaser\source\repos\OrderManagement\Order.Domain\bin\Debug\net8.0\Order.Domain.deps.json
+C:\Users\AhmadNaser\source\repos\OrderManagement\Order.Domain\bin\Debug\net8.0\Order.Domain.dll
+C:\Users\AhmadNaser\source\repos\OrderManagement\Order.Domain\bin\Debug\net8.0\Order.Domain.pdb
+C:\Users\AhmadNaser\source\repos\OrderManagement\Order.Domain\obj\Debug\net8.0\Order.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AhmadNaser\source\repos\OrderManagement\Order.Domain\obj\Debug\net8.0\Order.Domain.AssemblyInfoInputs.cache
+C:\Users\AhmadNaser\source\repos\OrderManagement\Order.Domain\obj\Debug\net8.0\Order.Domain.AssemblyInfo.cs
+C:\Users\AhmadNaser\source\repos\OrderManagement\Order.Domain\obj\Debug\net8.0\Order.Domain.csproj.CoreCompileInputs.cache
+C:\Users\AhmadNaser\source\repos\OrderManagement\Order.Domain\obj\Debug\net8.0\Order.Domain.dll
+C:\Users\AhmadNaser\source\repos\OrderManagement\Order.Domain\obj\Debug\net8.0\refint\Order.Domain.dll
+C:\Users\AhmadNaser\source\repos\OrderManagement\Order.Domain\obj\Debug\net8.0\Order.Domain.pdb
+C:\Users\AhmadNaser\source\repos\OrderManagement\Order.Domain\obj\Debug\net8.0\ref\Order.Domain.dll
+C:\Users\AhmadNaser\source\repos\OrderManagement\Order.Domain\obj\Debug\net8.0\Order.Domain.csproj.AssemblyReference.cache
+C:\Users\AhmadNaser\source\repos\OrderManagement\Order.Domain\bin\Debug\net8.0\Kernal.dll
+C:\Users\AhmadNaser\source\repos\OrderManagement\Order.Domain\bin\Debug\net8.0\Kernal.pdb
+C:\Users\AhmadNaser\source\repos\OrderManagement\Order.Domain\obj\Debug\net8.0\Order.Do.5EF8E5B4.Up2Date
