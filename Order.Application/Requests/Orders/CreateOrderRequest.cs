@@ -1,14 +1,12 @@
-﻿using MediatorCoordinator.Contract;
+﻿using CoreOps.FleetManagment.Application.Validators;
+using Kernal;
+using MediatorCoordinator.Contract;
 using MediatR;
+using Order.Application.Commands;
 using Order.Domain.Dtos;
+using Order.Domain.Mapping;
 using Order.Domain.Models;
 using SharedKernel;
-using Order.Domain.Mapping;
-using Order.Application.Commands;
-using Microsoft.AspNetCore.Mvc;
-using CoreOps.FleetManagment.Application.Validators;
-using FluentValidation;
-using Kernal;
 
 namespace CoreOps.MasterData.Application.RequestHandlers;
 
