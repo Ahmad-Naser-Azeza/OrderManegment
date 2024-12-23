@@ -8,6 +8,7 @@ using Order.Application.Commands;
 using Microsoft.AspNetCore.Mvc;
 using CoreOps.FleetManagment.Application.Validators;
 using FluentValidation;
+using Kernal;
 
 namespace CoreOps.MasterData.Application.RequestHandlers;
 
@@ -23,7 +24,8 @@ public class CreateOrderRequest : IRequestContext<Result<OrdersDto>>
 /// <summary>
 /// Handles the logic for processing the CreateOrderRequest.
 /// </summary>
-public class CreateOrderRequestHandler(Dispatcher dispatcher, IUnitOfWork unitOfWork) : IRequestHandler<CreateOrderRequest, Result<OrdersDto>>
+public class CreateOrderRequestHandler(Dispatcher dispatcher, IUnitOfWork unitOfWork,
+    IRabbitMQSender<OrdersDto> rabbitMQSender) : IRequestHandler<CreateOrderRequest, Result<OrdersDto>>
 {
     public async Task<Result<OrdersDto>> Handle(CreateOrderRequest request, CancellationToken cancellationToken)
     {
@@ -36,8 +38,12 @@ public class CreateOrderRequestHandler(Dispatcher dispatcher, IUnitOfWork unitOf
 
         unitOfWork.BeginTransaction();
         var orderEntity = request.Model.ToEntity();
-        await dispatcher.DispatchAsync(new AddOrderCommand { Order = orderEntity });
+         await dispatcher.DispatchAsync(new AddOrderCommand { Order = orderEntity });
         await unitOfWork.Commit(cancellationToken);
+
+        // Send Messages                
+        rabbitMQSender.SendMessage(orderEntity.ToDto(), exchangeName: "amq.direct", routingKey: "my_routing_key", queueName: "my_queue_azeza");
+        ///////////////////
 
         return Result.Success(orderEntity.ToDto());
     }

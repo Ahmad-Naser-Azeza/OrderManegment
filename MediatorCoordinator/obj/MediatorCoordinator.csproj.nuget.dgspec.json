@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\AhmadNaser\\source\\repos\\OrderManagement\\MediatorCoordinator\\MediatorCoordinator.csproj": {}
+    "C:\\Users\\AhmadNaser\\OneDrive - GN TEQ Limited\\Desktop\\test\\MediatorCoordinator\\MediatorCoordinator.csproj": {}
   },
   "projects": {
-    "C:\\Users\\AhmadNaser\\source\\repos\\OrderManagement\\Kernal\\Kernal.csproj": {
+    "C:\\Users\\AhmadNaser\\OneDrive - GN TEQ Limited\\Desktop\\test\\Kernal\\Kernal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\AhmadNaser\\source\\repos\\OrderManagement\\Kernal\\Kernal.csproj",
+        "projectUniqueName": "C:\\Users\\AhmadNaser\\OneDrive - GN TEQ Limited\\Desktop\\test\\Kernal\\Kernal.csproj",
         "projectName": "Kernal",
-        "projectPath": "C:\\Users\\AhmadNaser\\source\\repos\\OrderManagement\\Kernal\\Kernal.csproj",
+        "projectPath": "C:\\Users\\AhmadNaser\\OneDrive - GN TEQ Limited\\Desktop\\test\\Kernal\\Kernal.csproj",
         "packagesPath": "C:\\Users\\AhmadNaser\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AhmadNaser\\source\\repos\\OrderManagement\\Kernal\\obj\\",
+        "outputPath": "C:\\Users\\AhmadNaser\\OneDrive - GN TEQ Limited\\Desktop\\test\\Kernal\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -42,7 +42,7 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
+          "auditMode": "direct"
         },
         "SdkAnalysisLevel": "9.0.100"
       },
@@ -72,6 +72,10 @@
               "target": "Package",
               "version": "[9.0.0, )"
             },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            },
             "Z.ExtensionMethods": {
               "target": "Package",
               "version": "[2.1.1, )"
@@ -93,18 +97,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\AhmadNaser\\source\\repos\\OrderManagement\\MediatorCoordinator\\MediatorCoordinator.csproj": {
+    "C:\\Users\\AhmadNaser\\OneDrive - GN TEQ Limited\\Desktop\\test\\MediatorCoordinator\\MediatorCoordinator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\AhmadNaser\\source\\repos\\OrderManagement\\MediatorCoordinator\\MediatorCoordinator.csproj",
+        "projectUniqueName": "C:\\Users\\AhmadNaser\\OneDrive - GN TEQ Limited\\Desktop\\test\\MediatorCoordinator\\MediatorCoordinator.csproj",
         "projectName": "MediatorCoordinator",
-        "projectPath": "C:\\Users\\AhmadNaser\\source\\repos\\OrderManagement\\MediatorCoordinator\\MediatorCoordinator.csproj",
+        "projectPath": "C:\\Users\\AhmadNaser\\OneDrive - GN TEQ Limited\\Desktop\\test\\MediatorCoordinator\\MediatorCoordinator.csproj",
         "packagesPath": "C:\\Users\\AhmadNaser\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AhmadNaser\\source\\repos\\OrderManagement\\MediatorCoordinator\\obj\\",
+        "outputPath": "C:\\Users\\AhmadNaser\\OneDrive - GN TEQ Limited\\Desktop\\test\\MediatorCoordinator\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -125,8 +129,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\AhmadNaser\\source\\repos\\OrderManagement\\Kernal\\Kernal.csproj": {
-                "projectPath": "C:\\Users\\AhmadNaser\\source\\repos\\OrderManagement\\Kernal\\Kernal.csproj"
+              "C:\\Users\\AhmadNaser\\OneDrive - GN TEQ Limited\\Desktop\\test\\Kernal\\Kernal.csproj": {
+                "projectPath": "C:\\Users\\AhmadNaser\\OneDrive - GN TEQ Limited\\Desktop\\test\\Kernal\\Kernal.csproj"
               }
             }
           }
@@ -139,7 +143,7 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
+          "auditMode": "direct"
         },
         "SdkAnalysisLevel": "9.0.100"
       },
@@ -162,7 +166,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

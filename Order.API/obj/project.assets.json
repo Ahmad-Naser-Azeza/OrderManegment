@@ -1449,6 +1449,23 @@
           "buildTransitive/Mono.TextTemplating.targets": {}
         }
       },
+      "RabbitMQ.Client/6.4.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.4",
+          "System.Threading.Channels": "4.7.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/RabbitMQ.Client.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/RabbitMQ.Client.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "runtime.native.System.Data.SqlClient.sni/4.4.0": {
         "type": "package",
         "dependencies": {
@@ -2137,7 +2154,7 @@
       "System.Threading.Channels/7.0.0": {
         "type": "package",
         "compile": {
-          "lib/net7.0/_._": {
+          "lib/net7.0/System.Threading.Channels.dll": {
             "related": ".xml"
           }
         },
@@ -2206,6 +2223,7 @@
           "Microsoft.AspNetCore.Mvc.Core": "2.2.5",
           "Microsoft.EntityFrameworkCore": "9.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "9.0.0",
+          "RabbitMQ.Client": "6.4.0",
           "Z.ExtensionMethods": "2.1.1"
         },
         "compile": {
@@ -4831,6 +4849,22 @@
         "readme.md"
       ]
     },
+    "RabbitMQ.Client/6.4.0": {
+      "sha512": "1znR1gGU+xYVSpO5z8nQolcUKA/yydnxQn7Ug9+RUXxTSLMm/eE58VKGwahPBjELXvDnX0k/kBrAitFLRjx9LA==",
+      "type": "package",
+      "path": "rabbitmq.client/6.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "lib/net461/RabbitMQ.Client.dll",
+        "lib/net461/RabbitMQ.Client.xml",
+        "lib/netstandard2.0/RabbitMQ.Client.dll",
+        "lib/netstandard2.0/RabbitMQ.Client.xml",
+        "rabbitmq.client.6.4.0.nupkg.sha512",
+        "rabbitmq.client.nuspec"
+      ]
+    },
     "runtime.native.System.Data.SqlClient.sni/4.4.0": {
       "sha512": "A8v6PGmk+UGbfWo5Ixup0lPM4swuSwOiayJExZwKIOjTlFFQIsu3QnDXECosBEyrWSPryxBVrdqtJyhK3BaupQ==",
       "type": "package",
@@ -6212,11 +6246,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\AhmadNaser\\source\\repos\\OrderManagement\\Order.API\\Order.API.csproj",
+      "projectUniqueName": "C:\\Users\\AhmadNaser\\OneDrive - GN TEQ Limited\\Desktop\\test\\Order.API\\Order.API.csproj",
       "projectName": "Order.API",
-      "projectPath": "C:\\Users\\AhmadNaser\\source\\repos\\OrderManagement\\Order.API\\Order.API.csproj",
+      "projectPath": "C:\\Users\\AhmadNaser\\OneDrive - GN TEQ Limited\\Desktop\\test\\Order.API\\Order.API.csproj",
       "packagesPath": "C:\\Users\\AhmadNaser\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\AhmadNaser\\source\\repos\\OrderManagement\\Order.API\\obj\\",
+      "outputPath": "C:\\Users\\AhmadNaser\\OneDrive - GN TEQ Limited\\Desktop\\test\\Order.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -6237,17 +6271,17 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\AhmadNaser\\source\\repos\\OrderManagement\\Kernal\\Kernal.csproj": {
-              "projectPath": "C:\\Users\\AhmadNaser\\source\\repos\\OrderManagement\\Kernal\\Kernal.csproj"
+            "C:\\Users\\AhmadNaser\\OneDrive - GN TEQ Limited\\Desktop\\test\\Kernal\\Kernal.csproj": {
+              "projectPath": "C:\\Users\\AhmadNaser\\OneDrive - GN TEQ Limited\\Desktop\\test\\Kernal\\Kernal.csproj"
             },
-            "C:\\Users\\AhmadNaser\\source\\repos\\OrderManagement\\Order.Application\\Order.Application.csproj": {
-              "projectPath": "C:\\Users\\AhmadNaser\\source\\repos\\OrderManagement\\Order.Application\\Order.Application.csproj"
+            "C:\\Users\\AhmadNaser\\OneDrive - GN TEQ Limited\\Desktop\\test\\Order.Application\\Order.Application.csproj": {
+              "projectPath": "C:\\Users\\AhmadNaser\\OneDrive - GN TEQ Limited\\Desktop\\test\\Order.Application\\Order.Application.csproj"
             },
-            "C:\\Users\\AhmadNaser\\source\\repos\\OrderManagement\\Order.Infrastructure\\Order.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\AhmadNaser\\source\\repos\\OrderManagement\\Order.Infrastructure\\Order.Infrastructure.csproj"
+            "C:\\Users\\AhmadNaser\\OneDrive - GN TEQ Limited\\Desktop\\test\\Order.Infrastructure\\Order.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\AhmadNaser\\OneDrive - GN TEQ Limited\\Desktop\\test\\Order.Infrastructure\\Order.Infrastructure.csproj"
             },
-            "C:\\Users\\AhmadNaser\\source\\repos\\OrderManagement\\Persistence\\Persistence.csproj": {
-              "projectPath": "C:\\Users\\AhmadNaser\\source\\repos\\OrderManagement\\Persistence\\Persistence.csproj"
+            "C:\\Users\\AhmadNaser\\OneDrive - GN TEQ Limited\\Desktop\\test\\Persistence\\Persistence.csproj": {
+              "projectPath": "C:\\Users\\AhmadNaser\\OneDrive - GN TEQ Limited\\Desktop\\test\\Persistence\\Persistence.csproj"
             }
           }
         }
@@ -6260,7 +6294,7 @@
       "restoreAuditProperties": {
         "enableAudit": "true",
         "auditLevel": "low",
-        "auditMode": "all"
+        "auditMode": "direct"
       },
       "SdkAnalysisLevel": "9.0.100"
     },
@@ -6318,50 +6352,8 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1902",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'Microsoft.IdentityModel.JsonWebTokens' 7.0.3 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-59j7-ghrg-fj52",
-      "libraryId": "Microsoft.IdentityModel.JsonWebTokens",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    },
-    {
-      "code": "NU1902",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'System.Data.SqlClient' 4.5.1 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-8g2p-5pqh-5jmc",
-      "libraryId": "System.Data.SqlClient",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    },
-    {
-      "code": "NU1903",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'System.Data.SqlClient' 4.5.1 has a known high severity vulnerability, https://github.com/advisories/GHSA-98g6-xh36-x2p7",
-      "libraryId": "System.Data.SqlClient",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    },
-    {
-      "code": "NU1902",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'System.IdentityModel.Tokens.Jwt' 7.0.3 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-59j7-ghrg-fj52",
-      "libraryId": "System.IdentityModel.Tokens.Jwt",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    }
-  ]
+  }
 }

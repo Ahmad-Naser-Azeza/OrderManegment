@@ -1,10 +1,12 @@
 using CoreOps.CourierRouteManagement.Application;
+using Kernal;
 using Kernel.Contract;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
 using Order.Infrastructure;
 using Persistence;
+using RabbitMQ.Client;
 using SharedKernel;
 
 public class Program
@@ -50,6 +52,22 @@ public class Program
             }
         });
         });
+
+        builder.Services.AddSingleton(sp =>
+        {
+            return new ConnectionFactory
+            {
+                HostName = "localhost", // Replace with your RabbitMQ host
+                UserName = "guest",     // Replace with your RabbitMQ username
+                Password = "guest"      // Replace with your RabbitMQ password
+            };
+        });
+        // Register RabbitMQSender
+        builder.Services.AddSingleton(typeof(IRabbitMQSender<>), typeof(RabbitMQSender<>));
+        // Register the generic RabbitMQReceiver
+        builder.Services.AddSingleton(typeof(IRabbitMQReceiver<>), typeof(RabbitMQReceiver<>));
+
+
         builder.Services.AddScoped<Dispatcher>();       
 
         var app = builder.Build();

@@ -1,0 +1,17 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "Order.API\\Order.API.csproj",
+        "Action": "Start",
+        "DebugTarget": "IIS Express"
+      },
+      {
+        "Path": "MessageRecievers\\MessageRecievers.csproj",
+        "Action": "Start",
+        "DebugTarget": "MessageRecievers"
+      }
+    ]
+  }
+]

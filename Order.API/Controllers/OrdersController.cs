@@ -31,7 +31,10 @@ public class OrdersController(IMediator _mediator) : ControllerBase
     /// </summary>
     [HttpPost]
     [AuthorizePermission(UserAccessPermission.CreateOrders)]
-    public async Task<ActionResult> CreateOrders([FromBody] OrdersModel model) => await _mediator.Send(new CreateOrderRequest { Model = model });
+    public async Task<ActionResult> CreateOrders([FromBody] OrdersModel model) { 
+        var x = await _mediator.Send(new CreateOrderRequest { Model = model });
+        return x;
+    }
 
     /// <summary>
     /// Updates an existing Orders entity based on the provided ID.

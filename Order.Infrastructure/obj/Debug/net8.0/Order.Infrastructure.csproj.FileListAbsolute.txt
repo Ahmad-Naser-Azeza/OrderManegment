@@ -49,3 +49,23 @@ C:\Users\AhmadNaser\source\repos\OrderManagement\Order.Infrastructure\obj\Debug\
 C:\Users\AhmadNaser\source\repos\OrderManagement\Order.Infrastructure\obj\Debug\net8.0\ref\Order.Infrastructure.dll
 C:\Users\AhmadNaser\source\repos\OrderManagement\Order.Infrastructure\bin\Debug\net8.0\Kernal.dll
 C:\Users\AhmadNaser\source\repos\OrderManagement\Order.Infrastructure\bin\Debug\net8.0\Kernal.pdb
+C:\Users\AhmadNaser\OneDrive - GN TEQ Limited\Desktop\test\Order.Infrastructure\bin\Debug\net8.0\Order.Infrastructure.deps.json
+C:\Users\AhmadNaser\OneDrive - GN TEQ Limited\Desktop\test\Order.Infrastructure\bin\Debug\net8.0\Order.Infrastructure.runtimeconfig.json
+C:\Users\AhmadNaser\OneDrive - GN TEQ Limited\Desktop\test\Order.Infrastructure\bin\Debug\net8.0\Order.Infrastructure.dll
+C:\Users\AhmadNaser\OneDrive - GN TEQ Limited\Desktop\test\Order.Infrastructure\bin\Debug\net8.0\Order.Infrastructure.pdb
+C:\Users\AhmadNaser\OneDrive - GN TEQ Limited\Desktop\test\Order.Infrastructure\bin\Debug\net8.0\Kernal.dll
+C:\Users\AhmadNaser\OneDrive - GN TEQ Limited\Desktop\test\Order.Infrastructure\bin\Debug\net8.0\Order.Domain.dll
+C:\Users\AhmadNaser\OneDrive - GN TEQ Limited\Desktop\test\Order.Infrastructure\bin\Debug\net8.0\Order.Domain.pdb
+C:\Users\AhmadNaser\OneDrive - GN TEQ Limited\Desktop\test\Order.Infrastructure\bin\Debug\net8.0\Kernal.pdb
+C:\Users\AhmadNaser\OneDrive - GN TEQ Limited\Desktop\test\Order.Infrastructure\obj\Debug\net8.0\Order.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\AhmadNaser\OneDrive - GN TEQ Limited\Desktop\test\Order.Infrastructure\obj\Debug\net8.0\Order.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AhmadNaser\OneDrive - GN TEQ Limited\Desktop\test\Order.Infrastructure\obj\Debug\net8.0\Order.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\AhmadNaser\OneDrive - GN TEQ Limited\Desktop\test\Order.Infrastructure\obj\Debug\net8.0\Order.Infrastructure.AssemblyInfo.cs
+C:\Users\AhmadNaser\OneDrive - GN TEQ Limited\Desktop\test\Order.Infrastructure\obj\Debug\net8.0\Order.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\AhmadNaser\OneDrive - GN TEQ Limited\Desktop\test\Order.Infrastructure\obj\Debug\net8.0\Order.Infrastructure.sourcelink.json
+C:\Users\AhmadNaser\OneDrive - GN TEQ Limited\Desktop\test\Order.Infrastructure\obj\Debug\net8.0\Order.In.AA82CA84.Up2Date
+C:\Users\AhmadNaser\OneDrive - GN TEQ Limited\Desktop\test\Order.Infrastructure\obj\Debug\net8.0\Order.Infrastructure.dll
+C:\Users\AhmadNaser\OneDrive - GN TEQ Limited\Desktop\test\Order.Infrastructure\obj\Debug\net8.0\refint\Order.Infrastructure.dll
+C:\Users\AhmadNaser\OneDrive - GN TEQ Limited\Desktop\test\Order.Infrastructure\obj\Debug\net8.0\Order.Infrastructure.pdb
+C:\Users\AhmadNaser\OneDrive - GN TEQ Limited\Desktop\test\Order.Infrastructure\obj\Debug\net8.0\Order.Infrastructure.genruntimeconfig.cache
+C:\Users\AhmadNaser\OneDrive - GN TEQ Limited\Desktop\test\Order.Infrastructure\obj\Debug\net8.0\ref\Order.Infrastructure.dll
